@@ -3,7 +3,7 @@ Prints out lyrics of [Work it Harder, Make it Better, Do it Faster, Makes Us Str
 
 ### Installation
 
-N/A. You just need python (version 2 or 3). The test file just does a crude checking of output against the lyrics.
+You just need python (version 2 or 3). The test file just does a crude checking of output against the lyrics.
 
 ### Usage
 
