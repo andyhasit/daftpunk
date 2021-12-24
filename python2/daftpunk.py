@@ -1,0 +1,16 @@
+from __future__ import print_function
+a = ('harder', 'better', 'faster', 'stronger')
+v = ('work it', 'make it', 'do it', 'makes us')
+m = ('more than', 'hour', 'our', 'never')
+e = ('ever', 'after', 'work is', 'over')
+p = lambda lines, repeat=1: map(lambda x: map(print, [line.capitalize() for line in lines] + ['']), range(repeat))
+mrg = lambda *x: [' '.join(i) for i in zip(*x)]
+j = lambda *x: ' '.join(x)
+map(p, (v, a, m, e, v, a))
+map(lambda x: p(mrg(*x)), ((v, a), (m, e), (v, a)))
+p(mrg(v, a), repeat=5)
+wihmi, difmu, mteh = j(v[0], a[0], v[1]), j(v[2], a[2], v[3]), j(m[0], e[0], m[1])
+wih, dif, owi, owino = j(v[0], a[0]), j(v[2], a[2]), j(m[2], e[2]), j(m[2], e[2], m[3], e[3])
+map(lambda x: map(p, [[wihmi, difmu, mteh, owi], [wihmi, difmu, mteh, owino], mrg(v, a)]), range(2))
+p([wih, dif, j(m[0], e[0]), owino])
+p([wih, j(v[1], a[1]), dif, j(v[3], a[3])])
