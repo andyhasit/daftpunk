@@ -23,3 +23,4 @@ python3 daftpunk.py        # print output
 python3 test_daftpunk.py   # test output against lyrics.txt
 ```
 
+### License
