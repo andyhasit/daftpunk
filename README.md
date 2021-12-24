@@ -10,7 +10,7 @@ N/A. You just need python (version 2 or 3). The test file just does a crude chec
 ##### Python2
 
 ```bash
-cd python2
+cd src/python2
 python daftpunk.py        # print output
 python test_daftpunk.py   # test output against lyrics.txt
 ```
@@ -18,7 +18,7 @@ python test_daftpunk.py   # test output against lyrics.txt
 ##### Python3
 
 ```bash
-cd python3
+cd src/python3
 python3 daftpunk.py        # print output
 python3 test_daftpunk.py   # test output against lyrics.txt
 ```
